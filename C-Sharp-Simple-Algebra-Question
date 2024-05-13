@@ -1,0 +1,22 @@
+using System;
+
+namespace
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+            Console.WriteLine(Here's a problem for you to solve, x + 2 = 3, what is x? Is it A) 2, B) 5, C) 1 or D) 3?);
+            String answer = Console.ReadLine();
+
+            if (answer = C)
+            {
+                Console.WriteLine(Yes, correct!);
+            }
+            else
+            {
+                Console.WriteLine(Incorrect!);
+            }
+        }
+    }
+}
